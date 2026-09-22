@@ -1,0 +1,43 @@
+OSVALDO MOTORS — Sistema de Gestão Diária
+==========================================
+
+O QUE ESTÁ NESTE ZIP
+---------------------
+- osvaldo-motors.html  → o sistema completo (arquivo único, sem dependências externas)
+
+COMO USAR
+---------
+1. Basta abrir o arquivo "osvaldo-motors.html" em qualquer navegador (Chrome,
+   Safari, Edge) — no celular ou no computador. Não precisa instalar nada.
+
+2. Para uso diário na oficina, recomenda-se hospedar o arquivo em um serviço
+   gratuito como a Vercel ou o Netlify, para ter um link fixo (ex:
+   osvaldomotors.vercel.app) que pode ser salvo na tela inicial do celular
+   como se fosse um aplicativo.
+
+3. Os dados dos serviços lançados ficam salvos no navegador do próprio
+   aparelho (localStorage). Isso significa:
+   - Os lançamentos continuam salvos mesmo fechando o navegador ou
+     desligando o celular.
+   - Se o sistema for aberto em outro celular ou computador, o histórico
+     NÃO aparece lá — cada aparelho guarda os seus próprios lançamentos.
+   - Limpar os dados do navegador ("limpar cache/dados do site") apaga
+     o histórico.
+
+COMO FUNCIONA
+-------------
+- Aba "Novo serviço": cadastro da placa, marca, modelo e cliente, tipo de
+  serviço e valor da mão de obra. Se a marca digitada for de um veículo
+  importado (BMW, Audi, Mercedes, Porsche, Land Rover, Volvo, Lexus, Mini,
+  Jaguar, entre outras), o acréscimo de 20% na mão de obra é calculado
+  automaticamente.
+- Aba "Faturamento de hoje": mostra o total faturado no dia, separado por
+  forma de pagamento (Pix / Cartão / Dinheiro), e a lista de todos os
+  serviços lançados, com opção de remover algum lançamento por engano.
+- O botão "Limpar lançamentos de hoje" apaga os lançamentos do dia atual
+  (não afeta dias anteriores, caso o sistema seja usado por vários dias
+  seguidos no mesmo aparelho).
+
+SUPORTE
+-------
+Qualquer ajuste de escopo, cor ou funcionalidade, é só chamar.
